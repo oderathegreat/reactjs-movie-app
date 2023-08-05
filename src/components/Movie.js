@@ -10,7 +10,7 @@ const Movie = ({ movie }) => {
 
     return ( 
 
-        <div className="movie">
+        <div className="movie"> 
 
              <h2>{movie.Title}</h2>
       <div>
@@ -20,8 +20,11 @@ const Movie = ({ movie }) => {
           src={poster}
         />
         </div>
+        
 
         <p>{movie.Year}</p>
+
+        </div>
      );
 }
  
